@@ -18,11 +18,12 @@ public class Board {
     public Board(int pSize1) {
         
        this.spots = new BoarPosition[pSize1][pSize1];
+       String mLetters[] = {"a","b","c","d","e","f","g","h"};
         
         for(int i=0; i<spots.length; i++){
             for(int j=0; j<spots.length; j++){
-                this.spots[i][j] = new BoarPosition(i, j);
-            }
+                this.spots[i][j] = new BoarPosition(i, j);                
+            }            
         }
     }
 

@@ -26,6 +26,16 @@ public class MindGames {
         //Chess Game
         newGame = new Chess();
         newGame.drawBoard();
+        //
+        
+       /* for(int i=0; i<newGame.length; i++){
+            for(int j=0; j<newGame.length; j++){
+                System.out.println(newGame[i][j]);
+            }
+        }*/
+        
+        
+        //
         //Checkers Game
         newGame = new Checkers();
         newGame.drawBoard();

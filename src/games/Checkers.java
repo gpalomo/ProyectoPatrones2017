@@ -5,6 +5,7 @@
  */
 package games;
 
+import board.Board;
 import gamepice.IPiece;
 
 /**
@@ -12,6 +13,8 @@ import gamepice.IPiece;
  * @author gpalomox
  */
 public class Checkers implements IGame{
+    
+    Board chessBoard;
 
     @Override
     public void createGame() {
@@ -40,7 +43,7 @@ public class Checkers implements IGame{
 
     @Override
     public void drawBoard() {
-        
+        chessBoard = new Board(10);
     }
 
     @Override

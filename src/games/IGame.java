@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package games;
+
 import gamepice.IPiece;
 
 /**
@@ -13,8 +14,7 @@ import gamepice.IPiece;
  * 16 1king 1 queen 2rock 2 knights 2 bishops 8 pawns 8x8
  * 19 x 19 Go N Stones
  */
-public interface IGame {
-    
+public interface IGame {    
 
     public abstract void createGame();
     public abstract void saveGame();
